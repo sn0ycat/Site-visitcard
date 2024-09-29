@@ -96,3 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById('socialPopup').style.display = 'none';
         }
     }
+
+    window.onload = function() {
+        document.body.classList.add("dark-theme")
+    }
